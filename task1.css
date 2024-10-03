@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+
+.box1{
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    width: 30%;
+    height: auto;
+    border-radius: 3px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    
+}
+.boxa{
+   display: flex;
+}
+
+.child1{
+    margin: 10px;
+}
+.child2{
+    margin-top: 10px;
+}
+.para{
+    font-weight: bold; 
+    padding: 10px 10px;
+}
+.child3{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px
+}
+.star{
+    color: green;
+}
+.view{
+    color: rgba(0, 0, 255, 0.568);
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+
+    
+}
+
